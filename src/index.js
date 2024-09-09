@@ -15,3 +15,16 @@ app.listen(8000,async()=>{
     console.log(8000 , "port");
 })
 
+// const express=require("express");
+// const app=express();
+// const cors=require("cors");
+// const connect=require("./config/db.js");
+// app.use(express.json());
+// app.use(cors());
+// const userController=require("./controller/user.controller.js");
+// app.use("/users",userController);
+
+// app.listen(8000,async()=>{
+//     await connect();
+//     console.log("Listening on port 8000");
+// })
